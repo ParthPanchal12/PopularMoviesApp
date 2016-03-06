@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MoviesListActivity">
+
+
+  <item
+      android:id="@+id/sort_by_popolarity"
+      android:title="Sort by popularity"
+      />
+
+  <item
+      android:id="@+id/sort_by_count"
+      android:title="Sort by vote count"
+      />
+
+  <item
+      android:id="@+id/sort_by_revenue"
+      android:title="Sort by revenue"
+      />
+
+
+</menu>
