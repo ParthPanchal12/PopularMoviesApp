@@ -37,7 +37,7 @@ public class MoviesListActivity extends AppCompatActivity {
     private GridViewAdapter mGridAdapter;
     private ArrayList<GridItem> mGridData;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-    private String API_KEY = "85053ad07789e061d1e10881417c4744";
+    private String API_KEY = "";//API Key
     private int page_number = 1;
     private int colNo = 2;
     private String FEED_URL = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=" + API_KEY + "&page=";
